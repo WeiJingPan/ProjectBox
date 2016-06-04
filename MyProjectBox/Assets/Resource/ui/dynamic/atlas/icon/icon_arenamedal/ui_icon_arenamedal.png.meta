@@ -1,0 +1,341 @@
+fileFormatVersion: 2
+guid: c21a766d598ac8645b0196633d148c7c
+timeCreated: 1464864612
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: fair_icon_1
+    21300002: fair_icon_10
+    21300004: fair_icon_11
+    21300006: fair_icon_12
+    21300008: fair_icon_13
+    21300010: fair_icon_14
+    21300012: fair_icon_15
+    21300014: fair_icon_16
+    21300016: fair_icon_17
+    21300018: fair_icon_18
+    21300020: fair_icon_19
+    21300022: fair_icon_2
+    21300024: fair_icon_20
+    21300026: fair_icon_21
+    21300028: fair_icon_22
+    21300030: fair_icon_23
+    21300032: fair_icon_24
+    21300034: fair_icon_25
+    21300036: fair_icon_26
+    21300038: fair_icon_3
+    21300040: fair_icon_4
+    21300042: fair_icon_5
+    21300044: fair_icon_6
+    21300046: fair_icon_7
+    21300048: fair_icon_8
+    21300050: fair_icon_9
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: fair_icon_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 208
+        width: 126
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fair_icon_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 310
+        width: 126
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fair_icon_11
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 412
+        width: 126
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fair_icon_12
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 412
+        width: 126
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fair_icon_13
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 412
+        width: 126
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fair_icon_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 412
+        width: 126
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fair_icon_15
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 514
+        width: 126
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fair_icon_16
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 514
+        width: 126
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fair_icon_17
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 514
+        width: 126
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fair_icon_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 514
+        width: 126
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fair_icon_19
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 616
+        width: 126
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fair_icon_2
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 616
+        width: 126
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fair_icon_20
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 616
+        width: 126
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fair_icon_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 616
+        width: 126
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fair_icon_22
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 718
+        width: 126
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fair_icon_23
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 718
+        width: 126
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fair_icon_24
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 718
+        width: 126
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fair_icon_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 718
+        width: 126
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fair_icon_26
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 820
+        width: 126
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fair_icon_3
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 820
+        width: 126
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fair_icon_4
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 820
+        width: 126
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fair_icon_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 820
+        width: 126
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fair_icon_6
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 922
+        width: 126
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fair_icon_7
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 922
+        width: 126
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fair_icon_8
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 922
+        width: 126
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fair_icon_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 922
+        width: 126
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: ui_icon_arenamedal
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

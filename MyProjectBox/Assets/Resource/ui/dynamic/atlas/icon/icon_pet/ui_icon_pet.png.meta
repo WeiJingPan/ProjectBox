@@ -1,0 +1,1034 @@
+fileFormatVersion: 2
+guid: 123ed9cbd5483fe4494c7b35f23f6303
+timeCreated: 1464851366
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: pet_icon_baolong01
+    21300002: pet_icon_baolong02
+    21300004: pet_icon_baolong03
+    21300006: pet_icon_baolong04
+    21300008: pet_icon_baolong05
+    21300010: pet_icon_buyi01
+    21300012: pet_icon_buyi02
+    21300014: pet_icon_buyi03
+    21300016: pet_icon_buyi04
+    21300018: pet_icon_buyi05
+    21300020: pet_icon_chuanshanjia01
+    21300022: pet_icon_chuanshanjia02
+    21300024: pet_icon_chuanshanjia03
+    21300026: pet_icon_chuanshanjia04
+    21300028: pet_icon_chuanshanjia05
+    21300030: pet_icon_dashetou01
+    21300032: pet_icon_dashetou02
+    21300034: pet_icon_dashetou03
+    21300036: pet_icon_dashetou04
+    21300038: pet_icon_dashetou05
+    21300040: pet_icon_daxiang01
+    21300042: pet_icon_daxiang02
+    21300044: pet_icon_daxiang03
+    21300046: pet_icon_daxiang04
+    21300048: pet_icon_daxiang05
+    21300050: pet_icon_haima01
+    21300052: pet_icon_haima02
+    21300054: pet_icon_haima03
+    21300056: pet_icon_haima04
+    21300058: pet_icon_huoji01
+    21300060: pet_icon_huoji02
+    21300062: pet_icon_huoji03
+    21300064: pet_icon_huoji04
+    21300066: pet_icon_huoji05
+    21300068: pet_icon_jiamei01
+    21300070: pet_icon_jiamei02
+    21300072: pet_icon_jiamei03
+    21300074: pet_icon_jiamei04
+    21300076: pet_icon_jiamei05
+    21300078: pet_icon_kekeer01
+    21300080: pet_icon_kekeer02
+    21300082: pet_icon_kekeer03
+    21300084: pet_icon_kekeer04
+    21300086: pet_icon_kekeer05
+    21300088: pet_icon_laohu01
+    21300090: pet_icon_laohu02
+    21300092: pet_icon_laohu03
+    21300094: pet_icon_laohu04
+    21300096: pet_icon_laohu05
+    21300098: pet_icon_leilong01
+    21300100: pet_icon_leilong02
+    21300102: pet_icon_leilong03
+    21300104: pet_icon_leilong04
+    21300106: pet_icon_leilong05
+    21300108: pet_icon_lingyang01
+    21300110: pet_icon_lingyang02
+    21300112: pet_icon_lingyang03
+    21300114: pet_icon_lingyang04
+    21300116: pet_icon_lingyang05
+    21300118: pet_icon_renlong01
+    21300120: pet_icon_renlong02
+    21300122: pet_icon_renlong03
+    21300124: pet_icon_renlong04
+    21300126: pet_icon_renlong05
+    21300128: pet_icon_shayu01
+    21300130: pet_icon_shayu02
+    21300132: pet_icon_shayu03
+    21300134: pet_icon_shayu04
+    21300136: pet_icon_shayu05
+    21300138: pet_icon_wubaobao01
+    21300140: pet_icon_wubaobao02
+    21300142: pet_icon_wubaobao03
+    21300144: pet_icon_wubaobao04
+    21300146: pet_icon_wubaobao05
+    21300148: pet_icon_wugui01
+    21300150: pet_icon_wugui02
+    21300152: pet_icon_wugui03
+    21300154: pet_icon_wugui04
+    21300156: pet_icon_wugui05
+    21300158: pet_icon_wuli01
+    21300160: pet_icon_wuli02
+    21300162: pet_icon_wuli03
+    21300164: pet_icon_wuli04
+    21300166: pet_icon_wuli05
+    21300168: pet_icon_yulong01
+    21300170: pet_icon_yulong02
+    21300172: pet_icon_yulong03
+    21300174: pet_icon_yulong04
+    21300176: pet_icon_yulong05
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: pet_icon_baolong01
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 88
+        width: 102
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pet_icon_baolong02
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 192
+        width: 102
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pet_icon_baolong03
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 192
+        width: 102
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pet_icon_baolong04
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 88
+        width: 102
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pet_icon_baolong05
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 192
+        width: 102
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pet_icon_buyi01
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 296
+        width: 102
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pet_icon_buyi02
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 296
+        width: 102
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pet_icon_buyi03
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 296
+        width: 102
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pet_icon_buyi04
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 88
+        width: 102
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pet_icon_buyi05
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 192
+        width: 102
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pet_icon_chuanshanjia01
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 296
+        width: 102
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pet_icon_chuanshanjia02
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 400
+        width: 102
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pet_icon_chuanshanjia03
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 400
+        width: 102
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pet_icon_chuanshanjia04
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 400
+        width: 102
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pet_icon_chuanshanjia05
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 400
+        width: 102
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pet_icon_dashetou01
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 88
+        width: 102
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pet_icon_dashetou02
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 192
+        width: 102
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pet_icon_dashetou03
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 296
+        width: 102
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pet_icon_dashetou04
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 400
+        width: 102
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pet_icon_dashetou05
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 504
+        width: 102
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pet_icon_daxiang01
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 504
+        width: 102
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pet_icon_daxiang02
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 504
+        width: 102
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pet_icon_daxiang03
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 504
+        width: 102
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pet_icon_daxiang04
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 504
+        width: 102
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pet_icon_daxiang05
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 88
+        width: 102
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pet_icon_haima01
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 192
+        width: 102
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pet_icon_haima02
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 296
+        width: 102
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pet_icon_haima03
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 400
+        width: 102
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pet_icon_haima04
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 504
+        width: 102
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pet_icon_huoji01
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 608
+        width: 102
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pet_icon_huoji02
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 608
+        width: 102
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pet_icon_huoji03
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 608
+        width: 102
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pet_icon_huoji04
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 608
+        width: 102
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pet_icon_huoji05
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 608
+        width: 102
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pet_icon_jiamei01
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 608
+        width: 102
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pet_icon_jiamei02
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 88
+        width: 102
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pet_icon_jiamei03
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 192
+        width: 102
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pet_icon_jiamei04
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 296
+        width: 102
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pet_icon_jiamei05
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 400
+        width: 102
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pet_icon_kekeer01
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 504
+        width: 102
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pet_icon_kekeer02
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 608
+        width: 102
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pet_icon_kekeer03
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 712
+        width: 102
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pet_icon_kekeer04
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 712
+        width: 102
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pet_icon_kekeer05
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 712
+        width: 102
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pet_icon_laohu01
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 712
+        width: 102
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pet_icon_laohu02
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 712
+        width: 102
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pet_icon_laohu03
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 712
+        width: 102
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pet_icon_laohu04
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 712
+        width: 102
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pet_icon_laohu05
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 88
+        width: 102
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pet_icon_leilong01
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 192
+        width: 102
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pet_icon_leilong02
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 296
+        width: 102
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pet_icon_leilong03
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 400
+        width: 102
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pet_icon_leilong04
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 504
+        width: 102
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pet_icon_leilong05
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 608
+        width: 102
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pet_icon_lingyang01
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 712
+        width: 102
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pet_icon_lingyang02
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 816
+        width: 102
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pet_icon_lingyang03
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 816
+        width: 102
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pet_icon_lingyang04
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 816
+        width: 102
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pet_icon_lingyang05
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 816
+        width: 102
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pet_icon_renlong01
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 816
+        width: 102
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pet_icon_renlong02
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 816
+        width: 102
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pet_icon_renlong03
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 816
+        width: 102
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pet_icon_renlong04
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 816
+        width: 102
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pet_icon_renlong05
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 88
+        width: 102
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pet_icon_shayu01
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 192
+        width: 102
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pet_icon_shayu02
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 296
+        width: 102
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pet_icon_shayu03
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 400
+        width: 102
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pet_icon_shayu04
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 504
+        width: 102
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pet_icon_shayu05
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 608
+        width: 102
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pet_icon_wubaobao01
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 712
+        width: 102
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pet_icon_wubaobao02
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 816
+        width: 102
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pet_icon_wubaobao03
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 920
+        width: 102
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pet_icon_wubaobao04
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 920
+        width: 102
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pet_icon_wubaobao05
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 920
+        width: 102
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pet_icon_wugui01
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 920
+        width: 102
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pet_icon_wugui02
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 920
+        width: 102
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pet_icon_wugui03
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 920
+        width: 102
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pet_icon_wugui04
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 920
+        width: 102
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pet_icon_wugui05
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 920
+        width: 102
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pet_icon_wuli01
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 920
+        width: 102
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pet_icon_wuli02
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 88
+        width: 102
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pet_icon_wuli03
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 102
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pet_icon_wuli04
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 296
+        width: 102
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pet_icon_wuli05
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 400
+        width: 102
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pet_icon_yulong01
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 504
+        width: 102
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pet_icon_yulong02
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 608
+        width: 102
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pet_icon_yulong03
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 712
+        width: 102
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pet_icon_yulong04
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 816
+        width: 102
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pet_icon_yulong05
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 920
+        width: 102
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: ui_icon_pet
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
