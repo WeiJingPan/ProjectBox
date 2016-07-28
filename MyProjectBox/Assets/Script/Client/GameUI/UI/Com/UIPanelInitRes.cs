@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class UIPanelInitRes : MonoBehaviour {
+public class UIPanelInitRes : UI {
 
 	// Use this for initialization
 	void Start () {

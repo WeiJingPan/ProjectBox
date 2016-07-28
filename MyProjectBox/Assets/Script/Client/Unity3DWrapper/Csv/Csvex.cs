@@ -120,23 +120,45 @@ namespace Roma
             }
         }
 
+        #region 原写法，遍历表第一行，不重复检测
+        //private bool NoSame(ref string[] strArr)
+        //{
+        //    for (int i = 0; i < strArr.Length; i++)
+        //    {
+        //        for (int j = 0; j < strArr.Length; j++)
+        //        {
+        //            if (i == j)
+        //            {
+        //                continue;
+        //            }
+        //            if (strArr[i].Length == strArr[j].Length)
+        //            {
+        //                if (strArr[i] == strArr[j])
+        //                {
+        //                    Debug.LogErrorFormat("第{0}列{1}和第{2}列{3}重复", i.ToString(), strArr[i], j.ToString(), strArr[j]);
+        //                    return false;
+        //                }
+        //            }
+        //        }
+        //    }
+        //    return true;
+        //} 
+        #endregion
+        /// <summary>
+        /// 改进后的写法，当查表当前行，strArr[i]只用比较它后面成员，前面的成员已跟它比较过了
+        /// </summary>
+        /// <param name="strArr"></param>
+        /// <returns></returns>
         private bool NoSame(ref string[] strArr)
         {
             for (int i = 0; i < strArr.Length; i++)
             {
-                for (int j = 0; j < strArr.Length; j++)
+                for (int j = i++; j < strArr.Length; j++)
                 {
-                    if (i == j)
+                    if (strArr[i] == strArr[j])
                     {
-                        continue;
-                    }
-                    if (strArr[i].Length == strArr[j].Length)
-                    {
-                        if (strArr[i] == strArr[j])
-                        {
-                            Debug.LogErrorFormat("第{0}列{1}和第{2}列{3}重复", i.ToString(), strArr[i], j.ToString(), strArr[j]);
-                            return false;
-                        }
+                        Debug.LogErrorFormat("第{0}列{1}和第{2}列{3}重复", i.ToString(), strArr[i], j.ToString(), strArr[j]);
+                        return false;
                     }
                 }
             }
@@ -479,9 +501,102 @@ namespace Roma
     {
         public CsvExWrapper(){}
 
-        public void SetTitle(string[] strCName, string[] strEName)
+        public void SetTitle(string[] strCName, string[] strEName,CsvEx.eTypes[] eType)
         {
-
+            m_csv.SetCNameENameType(strCName, strEName, eType);
         }
+        //一般来说保存的时候不需要以前的数据了
+        protected virtual void _Save() { m_csv.Clear(); }
+
+        public bool Save(string strPath, Encoding encoding, bool bNewCreate)
+        {
+            if (null == m_csv)
+            {
+                return false;
+            }
+            if (string.IsNullOrEmpty(strPath))
+            {
+                strPath = m_strOpenPath;
+            }
+            _Save();
+            m_csv.Save(strPath, encoding, bNewCreate);
+            return true;
+        }
+        public bool Save(LusuoStream lf, Encoding encoding)
+        {
+            if (m_csv == null)
+            {
+                return false;
+            }
+            _Save();
+            m_csv.Save(lf, encoding);
+            return true;
+        }
+        public bool Load(byte[] uData, Encoding encoding)
+        {
+            LusuoStream lf = new LusuoStream(uData);
+            bool bRef = Load(lf, encoding);
+            lf.Close();
+            return bRef;
+        }
+        public bool Load(string strPath, Encoding encoding)
+        {
+            m_strOpenPath = strPath;
+            Clear();
+            bool bRef = m_csv.Load(strPath, encoding);
+            _Load();
+            return bRef;
+        }
+        private bool Load(LusuoStream lf, Encoding encoding)
+        {
+            if (m_bLoaded)
+            {
+                return true;
+            }
+            if(lf==null)
+            {
+                return false;
+            }
+            Clear();
+            bool bRef = m_csv.Load(lf, encoding);
+            if (bRef)
+            {
+                _Load();
+            }
+            else
+            {
+
+            }
+            m_bLoaded = bRef;
+            return bRef;
+        }
+        //清空csv,不清除标题三行
+        public virtual void Clear()
+        {
+            m_csv.Clear();
+        }
+        protected virtual void _Load()
+        {
+        }
+        public int GetFileNums()
+        {
+            if (m_csv == null)
+            {
+                return 0;
+            }
+            return m_csv.GetRows();
+        }
+        public static string LoadStringWithComma(string strConvert)
+        {
+            return strConvert.Replace(';', ',').Replace('；', ',');
+        }
+        public static string SaveStringWithComma(string strConvert)
+        {
+            return strConvert.Replace(",", ";");
+        }
+
+        protected CsvEx m_csv = new CsvEx();
+        private bool m_bLoaded = false;
+        private string m_strOpenPath;
     }
 }

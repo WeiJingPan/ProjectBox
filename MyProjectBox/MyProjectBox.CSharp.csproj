@@ -73,6 +73,8 @@
     <Compile Include="Assets\Script\Client\Unity3DWrapper\Csv\Csvex.cs" />
     <Compile Include="Assets\Script\Client\Unity3DWrapper\Csv\LusuoStream.cs" />
     <Compile Include="Assets\Script\Client\Unity3DWrapper\Csv\StringHelper.cs" />
+    <Compile Include="Assets\Script\Client\Unity3DWrapper\ResourceManager\Common\AllResInfo\AllResInfoCsv.cs" />
+    <Compile Include="Assets\Script\Client\Unity3DWrapper\ResourceManager\Common\ResInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Resource\ui\dynamic\atlas\icon\icon_arenamedal\ui_icon_arenamedal.txt" />

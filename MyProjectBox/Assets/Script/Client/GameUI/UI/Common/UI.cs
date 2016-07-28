@@ -14,6 +14,7 @@ public class UI : MonoBehaviour
     public GameObject m_btnClose;
 
     public bool m_isLoaded = false;
+    private UIPanelInfo panelInfo;
 
     public virtual void Init()
     {
@@ -35,6 +36,14 @@ public class UI : MonoBehaviour
         {
             return;
         }
+        panelInfo = gameObject.GetComponent<UIPanelInfo>();
+        if (panelInfo == null)
+        {
+            m_isLoaded = true;
+            return;
+        }
+        panelInfo.enabled = true;
+        
     }
 
 }
