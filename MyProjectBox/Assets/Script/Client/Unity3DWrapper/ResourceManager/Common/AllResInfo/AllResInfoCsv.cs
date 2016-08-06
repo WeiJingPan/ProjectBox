@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using System.IO;
 
 namespace Roma
 {
@@ -66,5 +67,51 @@ namespace Roma
         public Dictionary<string, ResInfo> m_mapNameIDResInfo = new Dictionary<string, ResInfo>();
         public Dictionary<uint, ResInfo> m_mapComIDResInfo = new Dictionary<uint, ResInfo>();
         public List<ResInfo> m_listResInfo = new List<ResInfo>();
+        public static Dictionary<uint, ResInfo> CheckNewVersion(Dictionary<uint, ResInfo> oldCsv, Dictionary<uint, ResInfo> newCsv)
+        {
+            if (oldCsv == null || newCsv == null) return null;
+            foreach (KeyValuePair<uint, ResInfo> oldItem in oldCsv)
+            {
+                ResInfo newInfo = null;
+                //遍历老的资源，如果新资源中有
+                string oldFilePath = Application.persistentDataPath + "/android" + oldItem.Value.strUrl;
+                if (newCsv.TryGetValue(oldItem.Key, out newInfo))
+                {
+                    if (newInfo.nResID == 0) newInfo.bNewVersion = false;
+                    else if (File.Exists(oldFilePath))
+                    {
+                        //方式1：通过文件对比更新，端游常用
+                        //MD5一样，那就是不更新的，支持断开续更
+                        //byte[] bytes=File.ReadAllBytes(oldFilePath);
+                        //string oldFileMD5=MD5.GetMd5Hash(bytes);
+                        //if(oldFileMD5==newInfo.md5)
+                        //{
+                        //      newInfo.bNewVersion=false;
+                        //}
+                        //方式2:通过配置更新，手游常用
+                        if (oldItem.Value.md5 == newInfo.md5 && oldItem.Value.iVersion == newInfo.iVersion && oldItem.Value.strName == newInfo.strName)
+                            newInfo.bNewVersion = false;
+                        else if (!oldItem.Value.strName.Equals(newInfo.strName))
+                        {
+                            //删除情况1：
+                            //该id的资源名称修改了，之前的老资源就要删除掉
+                            Debug.Log("1.del old res.." + oldFilePath);
+                            if (File.Exists(oldFilePath)) File.Delete(oldFilePath);
+                        }
+                    }
+                    else
+                    {
+                        //删除情况2：
+                        //在老版本中有，新版本中无的，就是垃圾文件，删除掉
+                        if (File.Exists(oldFilePath))
+                        {
+                            File.Delete(oldFilePath);
+                            Debug.Log("2.del rubbish res"+oldFilePath);
+                        }
+                    }
+                }
+            }
+            return newCsv;
+        }
     }
 }

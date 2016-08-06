@@ -86,6 +86,7 @@ namespace Roma
 
         }
 
+        public bool bNewVersion = true;
         public string strUrl;
         public string strName;
         public int iVersion;

@@ -63,12 +63,17 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Script\Client\GameClient\Client.cs" />
+    <Compile Include="Assets\Script\Client\GameLogic\Csv\IconCsv.cs" />
+    <Compile Include="Assets\Script\Client\GameLogic\LogicSystem.cs" />
     <Compile Include="Assets\Script\Client\GameUI\Tools\UICreateOBCheck.cs" />
+    <Compile Include="Assets\Script\Client\GameUI\Tools\UIPanelMgr\UILoad.cs" />
+    <Compile Include="Assets\Script\Client\GameUI\Tools\UIPanelMgr\UILoadImage.cs" />
     <Compile Include="Assets\Script\Client\GameUI\Tools\UIPanelMgr\UIPanelInfo.cs" />
     <Compile Include="Assets\Script\Client\GameUI\UI\Com\UIPanelInitRes.cs" />
     <Compile Include="Assets\Script\Client\GameUI\UI\Common\UI.cs" />
     <Compile Include="Assets\Script\Client\Unity3DWrapper\Common\GlobalConfig.cs" />
     <Compile Include="Assets\Script\Client\Unity3DWrapper\Common\Singleton.cs" />
+    <Compile Include="Assets\Script\Client\Unity3DWrapper\Common\SingletonManager.cs" />
     <Compile Include="Assets\Script\Client\Unity3DWrapper\Csv\CsvManager.cs" />
     <Compile Include="Assets\Script\Client\Unity3DWrapper\Csv\Csvex.cs" />
     <Compile Include="Assets\Script\Client\Unity3DWrapper\Csv\LusuoStream.cs" />
