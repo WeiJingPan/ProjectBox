@@ -58,7 +58,7 @@ namespace Roma
         private void InitUI()
         {
             m_uiInitRes = GameObject.Find("panel_init_res").AddComponent<UIPanelInitRes>();
-            
+            m_uiInitRes.Init();
         }
     }
 }

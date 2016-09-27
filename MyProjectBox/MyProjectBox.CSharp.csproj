@@ -60,6 +60,12 @@
     <Reference Include="UnityEditor">
       <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
     </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+      <HintPath>Library\UnityAssemblies\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Common">
+      <HintPath>Library\UnityAssemblies\UnityEditor.iOS.Extensions.Common.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Script\Client\GameClient\Client.cs" />
@@ -80,6 +86,7 @@
     <Compile Include="Assets\Script\Client\Unity3DWrapper\Csv\StringHelper.cs" />
     <Compile Include="Assets\Script\Client\Unity3DWrapper\ResourceManager\Common\AllResInfo\AllResInfoCsv.cs" />
     <Compile Include="Assets\Script\Client\Unity3DWrapper\ResourceManager\Common\ResInfo.cs" />
+    <Compile Include="Assets\Script\Client\Unity3DWrapper\ResourceManager\DelegateEvent.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Resource\ui\dynamic\atlas\icon\icon_arenamedal\ui_icon_arenamedal.txt" />

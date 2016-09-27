@@ -4,6 +4,8 @@ D:/PWJ/Unity3D/Unity/Editor/Data/Managed/UnityEngine.dll
 D:/PWJ/Unity3D/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll
 D:/PWJ/Unity3D/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll
 D:/PWJ/Unity3D/Unity/Editor/Data/Managed/UnityEditor.dll
+D:/PWJ/Unity3D/Unity/Editor/Data/PlaybackEngines/iOSSupport\UnityEditor.iOS.Extensions.Xcode.dll
+D:/PWJ/Unity3D/Unity/Editor/Data/PlaybackEngines/iOSSupport\UnityEditor.iOS.Extensions.Common.dll
 D:/PWJ/Unity3D/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll
 D:/PWJ/Unity3D/Unity/Editor/Data/UnityExtensions/Unity/EditorTestsRunner/Editor/nunit.framework.dll
 D:/PWJ/Unity3D/Unity/Editor/Data/UnityExtensions/Unity/EditorTestsRunner/Editor/UnityEditor.EditorTestsRunner.dll
@@ -12,4 +14,5 @@ D:/PWJ/Unity3D/Unity/Editor/Data/UnityExtensions/Unity/Networking/Editor/UnityEd
 D:/PWJ/Unity3D/Unity/Editor/Data/UnityExtensions/Unity/TreeEditor/Editor/UnityEditor.TreeEditor.dll
 D:/PWJ/Unity3D/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll
 D:/PWJ/Unity3D/Unity/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+D:/PWJ/Unity3D/Unity/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
 C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/2013/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll

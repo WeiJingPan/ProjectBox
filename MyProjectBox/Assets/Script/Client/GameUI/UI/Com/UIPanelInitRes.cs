@@ -10,6 +10,15 @@ public class UIPanelInitRes : UI
     public override void Init()
     {
         base.Init();
-        
+        m_txt_schedule = m_root.FindChild("panel/txt").GetComponent<Text>();
+        m_slider = m_root.FindChild("panel/slider").GetComponent<Slider>();
+    }
+    public void SetTxt(string value)
+    {
+        m_txt_schedule.text = value;
+    }
+    public void SetProgress(float value)
+    {
+        m_slider.value = (int)(value * 100);
     }
 }
